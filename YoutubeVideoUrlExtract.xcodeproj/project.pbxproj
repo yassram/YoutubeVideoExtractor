@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		FB1D38A721AA056400A3B559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1D38A621AA056400A3B559 /* AppDelegate.swift */; };
 		FB1D38A921AA056400A3B559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1D38A821AA056400A3B559 /* ViewController.swift */; };
-		FB1D38AC21AA056400A3B559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1D38AA21AA056400A3B559 /* Main.storyboard */; };
 		FB1D38AE21AA056900A3B559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1D38AD21AA056900A3B559 /* Assets.xcassets */; };
 		FB1D38B121AA056900A3B559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1D38AF21AA056900A3B559 /* LaunchScreen.storyboard */; };
+		FB9D079F21AA0D910014C3FD /* YoutubeVideoExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D079E21AA0D910014C3FD /* YoutubeVideoExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB1D38A321AA056400A3B559 /* YoutubeVideoUrlExtract.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeVideoUrlExtract.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1D38A621AA056400A3B559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB1D38A821AA056400A3B559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB1D38AB21AA056400A3B559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB1D38AD21AA056900A3B559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1D38B021AA056900A3B559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB1D38B221AA056900A3B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9D079E21AA0D910014C3FD /* YoutubeVideoExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideoExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 			children = (
 				FB1D38A521AA056400A3B559 /* YoutubeVideoUrlExtract */,
 				FB1D38A421AA056400A3B559 /* Products */,
+				FB9D079E21AA0D910014C3FD /* YoutubeVideoExtractor.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +57,6 @@
 			children = (
 				FB1D38A621AA056400A3B559 /* AppDelegate.swift */,
 				FB1D38A821AA056400A3B559 /* ViewController.swift */,
-				FB1D38AA21AA056400A3B559 /* Main.storyboard */,
 				FB1D38AD21AA056900A3B559 /* Assets.xcassets */,
 				FB1D38AF21AA056900A3B559 /* LaunchScreen.storyboard */,
 				FB1D38B221AA056900A3B559 /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				FB1D38B121AA056900A3B559 /* LaunchScreen.storyboard in Resources */,
 				FB1D38AE21AA056900A3B559 /* Assets.xcassets in Resources */,
-				FB1D38AC21AA056400A3B559 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,20 +136,13 @@
 			files = (
 				FB1D38A921AA056400A3B559 /* ViewController.swift in Sources */,
 				FB1D38A721AA056400A3B559 /* AppDelegate.swift in Sources */,
+				FB9D079F21AA0D910014C3FD /* YoutubeVideoExtractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB1D38AA21AA056400A3B559 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB1D38AB21AA056400A3B559 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB1D38AF21AA056900A3B559 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
