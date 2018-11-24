@@ -21,13 +21,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     override func viewDidAppear(_ animated: Bool) {
-        
-        
-        let player = AVPlayer(url: URL(string: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4")!)
-        let playerLayer = AVPlayerLayer(player: player)
-        playerLayer.frame = CGRect(x: view.frame.width/2 - 360/2, y: 40, width: 360, height: 250)
-        playerLayer.player?.play()
+        let playerLayer = AVPlayerLayer()
+        playerLayer.frame = CGRect(x: view.frame.width/2 - 400/2, y: 40, width: 400, height: 250)
         view.layer.addSublayer(playerLayer)
+
+        extractVideos(from: "iol8n3m88SA") { (dic) -> (Void) in
+            print(dic)
+            let player = AVPlayer(url: URL(string: dic.values.first!)!)
+            playerLayer.player = player
+            playerLayer.player?.play()
+        }
     }
 
 }
