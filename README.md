@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/iOS-swift-orange.svg">
     <img src="https://img.shields.io/badge/Swift-4.2-blue.svg">
     <img src="https://img.shields.io/badge/YouTube-API-red.svg">
-    <img src="https://img.shields.io/badge/Example-Included-green.svg">   
+    <img src="https://img.shields.io/badge/Example-Included-green.svg">
 </p>
 
 ## Motivation :
@@ -25,7 +25,6 @@ The solution is to extract **videos files urls'** (mp4) from youtube **VideoId**
 include ```YoutubeVideoExtractor.swift``` to your project
 
 # How to use :
-
 YoutubeVideoExtractor offers a function with that takes a YouTube **VideoId** and a **completion handler** to perform actions on urls extracted from the given *videoId*.
 
 
@@ -41,3 +40,14 @@ extractVideos(from: videoId) { (dic) -> (Void) in
     // use dic here
 }
 ```
+
+# Example
+You can find in this repo a very basic example of using **YoutubeVideoExtractor** with a simple **AVPlayer**.
+<p align="center">
+    <img width="200" src="https://github.com/yassram/YoutubeVideoExtractor/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%20XR%20-%202018-12-02%20at%2000.54.18.png?raw=true">
+</p>
+   
+# Applications using YoutubeVideoExtractor :
+*if you are using **YoutubeVideoExtractor** please contact as to add you to the list.*
+
+*(comming soon)*
